@@ -1,8 +1,8 @@
 body {
-  background-image:("https://images.pexels.com/photos/1097930/pexels-photo-1097930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350");
+ background-image:url("https://images.pexels.com/photos/1097930/pexels-photo-1097930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350");
   margin-left: 40px;
   margin-right: 40px;
-  font-size: 20px;
+  font-size: 23px;
 }
 h1{
   font-family: "arial", cursive,sans-serif;
