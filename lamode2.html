@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+</style>
+</head>
+<body class="w3-content" style="max-width:1200px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <h3 class="w3-wide"><b>La Mode</b></h3>
+  </div>
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+    <a href="hhhikhkihkh" class="w3-bar-item w3-button">Homepage</a>
+    <a href="file:///C:/Users/Girls%20Who%20Code/Desktop/code/final/lamode.html" class="w3-bar-item w3-button">La Mode</a>
+    <a href="file:///C:/Users/Girls%20Who%20Code/Desktop/code/final/quiz.html" class="w3-bar-item w3-button">Quiz</a>
+    <a href="" class="w3-bar-item w3-button">
+      Outfits
+    </a>
+    <!-- <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="#" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>Chic</a>
+      <a href="#" class="w3-bar-item w3-button">Sporty</a>
+      <a href="#" class="w3-bar-item w3-button">Inbetween</a>
+    </div> -->
+    <!-- <a href="#" class="w3-bar-item w3-button">Jackets</a>
+    <a href="#" class="w3-bar-item w3-button">Gymwear</a>
+    <a href="#" class="w3-bar-item w3-button">Blazers</a>
+    <a href="#" class="w3-bar-item w3-button">Shoes</a>
+  </div> -->
+  <!-- <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a>
+  <a href="#footer"  class="w3-bar-item w3-button w3-padding">Subscribe</a> -->
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24 w3-wide">La Mode</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+
+  <div class="w3-row">
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <a href="https://www.shoplook.io/outfit-preview/111532"><img src="https://d2bnh4l4ivgux0.cloudfront.net/fit-in/0x700/outfits/6f9c4cdd-aa03-4890-9afb-a3db365f7951.png" style="width:100%" onclick="onClick(this)"></a>
+        <p>Inbetweener</p>
+      </div>
+      <div class="w3-container">
+       <a href="https://www.shoplook.io/outfit-preview/111554"><img src="https://d2bnh4l4ivgux0.cloudfront.net/fit-in/0x700/outfits/5b69c26c-7a62-46de-b734-3f97770b2f1e.png" style="width:100%" onclick="onClick(this)"></a>
+        <p>Chic</p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+      <div class="w3-container">
+          <a href="https://www.shoplook.io/outfit-preview/111583"><img src="https://d2bnh4l4ivgux0.cloudfront.net/fit-in/0x700/outfits/bebf89dc-c73a-48e8-b22b-8f827e951f49.png" style="width:100%" onclick="onClick(this)"></a>
+<p> Inbetweener </p>
+
+          <div class="w3-display-middle w3-display-hover">
+
+          </div>
+        </div>
+        <p>Sporty</p>
+      </div>
+      <div class="w3-container">
+        <a href="https://www.shoplook.io/outfit-preview/111580"><img src="https://d2bnh4l4ivgux0.cloudfront.net/fit-in/0x700/outfits/04837cd6-0fef-4d95-b4a0-5ecfc87189f2.png" style="width:100%" onclick="onClick(this)"></a>
+        <p>Inbetweener</p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+
+      <div class="w3-container">
+        <a href="https://www.shoplook.io/outfit-preview/111574"><img src="https://d2bnh4l4ivgux0.cloudfront.net/fit-in/0x700/outfits/394b121d-a62d-4a4e-8904-5f8a048abef8.png" style="width:100%" onclick="onClick(this)"></a>
+        <p>Chic</p>
+      </div>
+      <div class="w3-container">
+        <div class="w3-container">
+          <a href="https://www.shoplook.io/outfit-preview/111565"><img src="https://d2bnh4l4ivgux0.cloudfront.net/fit-in/0x700/outfits/5476d6a1-576c-45a7-aae1-50b86175b4bf.png" style="width:100%" onclick="onClick(this)"></a>
+          <p> Inbetweener </p>
+
+          <div class="w3-display-middle w3-display-hover">
+            <!-- <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button> -->
+          </div>
+        </div>
+        <!-- <p>Vintage Skinny Jeans<br><b class="w3-text-red">$14.99</b></p> -->
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <a href="https://www.shoplook.io/outfit-preview/111501"><img src="https://d2bnh4l4ivgux0.cloudfront.net/fit-in/0x700/outfits/d3a61739-3ee0-473b-82eb-379593acb276.png" style="width:100%" onclick="onClick(this)"></a>
+        <p>Chic</p>
+      </div>
+      <div class="w3-container">
+        <a href="https://www.shoplook.io/outfit-preview/111329"><img src="https://d2bnh4l4ivgux0.cloudfront.net/fit-in/0x700/outfits/e0714b6a-4a04-497d-85a1-96d4969f6f82.png" style="width:100%" onclick="onClick(this)"></a>
+        <p>Inbetweener</p>
+
+      </div>
+    </div>
+  </div>
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <a href="https://www.shoplook.io/outfit-preview/111315"><img src="https://d2bnh4l4ivgux0.cloudfront.net/fit-in/0x700/outfits/24af380b-4090-4fa5-b677-52a427ac64e9.png" style="width:100%" onclick="onClick(this)"></a>
+        <p>Chic</p>
+      </div>
+      <div class="w3-container">
+        <a href="https://www.shoplook.io/outfit-preview/111295"><img src="https://d2bnh4l4ivgux0.cloudfront.net/fit-in/0x700/outfits/5103703f-4355-40c7-894d-d8717a702d77.png" style="width:100%" onclick="onClick(this)"></a>
+        <p>Chic</p>
+      </div>
+    </div>
+  </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <a href="https://www.shoplook.io/outfit-preview/110282"><img src="https://d2bnh4l4ivgux0.cloudfront.net/fit-in/0x700/outfits/ed48922c-d30b-4254-bc90-b83a9e3c4632.png" style="width:100%" onclick="onClick(this)"></a>
+        <p>Chic</p>
+      </div>
+
+      <div class="w3-container">
+        <a href="https://www.shoplook.io/outfit-preview/110272"><img src="https://d2bnh4l4ivgux0.cloudfront.net/fit-in/0x700/outfits/d2c173ad-d690-4e2e-8089-da5a931cd08d.png" style="width:100%" onclick="onClick(this)"></a>
+        <p>Sporty</p>
+      </div>
+    </div>
+  </div>
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <a href="https://www.shoplook.io/outfit-preview/110003"><img src="https://d2bnh4l4ivgux0.cloudfront.net/fit-in/0x700/outfits/2b3ef262-eb7d-43eb-8003-6f197a6135a5.png" style="width:100%" onclick="onClick(this)"></a>
+        <p>Sporty</p>
+      </div>
+
+      <div class="w3-container">
+        <a href="https://www.shoplook.io/outfit-preview/109991"><img src="https://d2bnh4l4ivgux0.cloudfront.net/fit-in/0x700/outfits/299b425a-7c43-4560-8d44-b3da09020be7.png" style="width:100%" onclick="onClick(this)"></a>
+        <p>Inbetweener</p>
+
+      </div>
+        <div class="w3-col l10 s7">
+        <div class="w3-container">
+        <a href="https://www.shoplook.io/outfit-preview/109968"><img src="https://d2bnh4l4ivgux0.cloudfront.net/fit-in/0x700/outfits/4e01a875-a397-4fd8-bf39-90a6adc87035.png" style="width:100%" onclick="onClick(this)"></a>
+        <p>  Sporty </p>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+
+<script src="lamode.js"></script>
+
+</body>
+</html>
